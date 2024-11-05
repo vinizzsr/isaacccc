@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Biblioteca Virtual</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #121010;
+            margin: 0;
+            padding: 20px;
+        }
+        .library {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+            gap: 20px;
+        }
+        .book {
+            background-color: #8e7d7d;
+            padding: 15px;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            box-shadow: 0 2px 5px rgba(240, 233, 233, 0.876);
+            text-align: center;
+        }
+        .book img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 5px;
+        }
+        .book-title {
+            font-size: 1.2em;
+            font-weight: bold;
+            color: #333;
+            margin-top: 10px;
+        }
+        .book-author, .book-genre, .book-description {
+            margin: 10px 0;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Biblioteca Virtual</h1>
+    <p>Explore nossa coleção de livros!</p>
+
+    <div class="library">
+        <!-- Livro 1 -->
+        <div class="book">
+            <img src="https://books.google.com.br/books/publisher/content?id=XGn6DwAAQBAJ&hl=pt-BR&pg=PP1&img=1&zoom=3&bul=1&sig=ACfU3U1nCETyV_xv87pzfPX4ce0r-Wf-mQ&w=1280"alt="Capa do livro Dom Quixote">
+            <div class="book-title">Dom Quixote</div>
+            <div class="book-author">Autor: Miguel de Cervantes</div>
+            <div class="book-genre">Gênero: Romance</div>
+            <div class="book-description">A história de um cavaleiro que parte em busca de aventuras, lutando contra moinhos de vento.</div>
+        </div>
+
+        <!-- Livro 2 -->
+        <div class="book">
+            <img src="https://books.google.com.br/books/publisher/content?id=Fs_9EAAAQBAJ&hl=pt-BR&pg=PP1&img=1&zoom=3&bul=1&sig=ACfU3U3t8VpF1Pi_Szo_fiqmHcUff-PZ7g&w=1280" alt="Capa do livro Orgulho e Preconceito">
+            <div class="book-title">Orgulho e Preconceito</div>
+            <div class="book-author">Autor: Jane Austen</div>
+            <div class="book-genre">Gênero: Romance</div>
+            <div class="book-description">Uma análise perspicaz sobre a sociedade e as complexidades das relações humanas.</div>
+        </div>
+
+        <!-- Livro 3 -->
+        <div class="book">
+            <img src="https://http2.mlstatic.com/D_NQ_NP_908838-MLB50582487463_072022-O.webp"" alt="Capa do livro 1984">
+            <div class="book-title">1984</div>
+            <div class="book-author">Autor: George Orwell</div>
+            <div class="book-genre">Gênero: Distopia</div>
+            <div class="book-description">Uma visão distópica de um futuro onde a liberdade é limitada e a opressão domina.</div>
+        </div>
+
+        <!-- Livro 4 -->
+        <div class="book">
+            <img src="https://editorapaulus.vtexassets.com/arquivos/ids/158673-600-auto?v=637908989373070000&width=600&height=auto&aspect=true" alt="Capa do livro O Pequeno Príncipe">
+            <div class="book-title">O Pequeno Príncipe</div>
+            <div class="book-author">Autor: Antoine de Saint-Exupéry</div>
+            <div class="book-genre">Gênero: Fantasia</div>
+            <div class="book-description">Uma bela história sobre amizade, amor e perda, contada através dos olhos de um príncipe.</div>
+        </div>
+
+        <!-- Livro 5 -->
+        <div class="book">
+            <img src="https://books.google.com.br/books/publisher/content?id=fn0MEQAAQBAJ&hl=pt-BR&pg=PP1&img=1&zoom=3&bul=1&sig=ACfU3U1BXUh3rUUI6pMlmQLgxgJjTfmIzQ&w=1280"" alt="Capa do livro A Metamorfose">
+            <div class="book-title">A Metamorfose</div>
+            <div class="book-author">Autor: Franz Kafka</div>
+            <div class="book-genre">Gênero: Ficção</div>
+            <div class="book-description">A história perturbadora de um homem que acorda transformado em um inseto.</div>
+        </div>
+    </div>
+
+</body>
+</html>
